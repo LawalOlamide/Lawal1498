@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+
+
+* { margin:0px;
+    padding:0px;
+    scroll-behavior:smooth;
+    }
+
+
+html{
+
+scroll-behavior:smooth;
+
+
+}
+
+
+
+
+.header { height:170px;
+        
+          position:relative;
+          background-color:#003366;
+          box-sizing:border-box;
+          
+               }
+
+
+
+
+
+ 
+.menu {  
+        width:30px;
+        border:solid white;
+        border-radius:5px;
+        position:absolute;
+        top:20px;
+        left:20px;
+      
+                  }
+          
+          
+
+.menu::before
+         {
+        content:' ';
+        width:30px;
+        border:solid white;
+        border-radius:5px;
+         top:5px;
+        position:absolute;
+        left:-1.5px;
+               }
+               
+.menu::after {
+         content:'';
+         width:30px;
+         border:solid white;
+         border-radius:5px;
+         top:12px;
+         position:absolute;
+         left:-1.5px; 
+                 }
+                 
+.Amazon  { color:orange;   
+         position:absolute;    
+         left:80px;
+         font-size:20px;
+         top:15px;
+           }
+
+.in{ position:absolute;
+    left:250px;
+    color:white;
+    text-decoration:none;
+    top:25px;
+    font-size:12px;
+     
+       }
+
+.user  {      position:absolute;
+             color:white; 
+             top:20px;
+             left:300px;
+              font-size:20px;
+              
+              }
+
+.A { font-size:10px;
+    color:white;
+}
+
+.search {
+position:absolute;
+top:50px;
+left:10px;
+
+}
+
+input{ width:340px;
+     height:40px;
+     border-radius:5px;
+     border:none;
+     font-size:15px;
+     padding:5px;
+     box-sizing:border-box;
+     
+}
+
+.B {
+position:absolute;
+width:40px;
+height:40px;
+background-color:orange;
+border-radius:5px;
+box-sizing:border-box;
+padding:10px;
+top:50px;
+left:320px;
+}
+
+.section {
+box-sizing:border-box;
+padding:10px;
+word-spacing:5px;
+background-color:#003366;
+color:white;
+position:absolute;
+top:100px;
+text-transform:uppercase;
+font-size:10px;
+}
+
+
+
+.location {
+position:absolute;
+background-color:orange;
+opacity:.;
+color:white;
+top:140px;
+height:30px;
+width:360px;
+box-sizing:border-box;
+padding-top:7px;
+padding-left:20px;
+}
+
+.Nigeria {
+position:absolute;
+top:6px;
+left:40px;
+}
+
+.games{
+color:black;
+font-size:20px;
+padding:10px;
+font-family:Courier new,monospace;
+animation-name:slide;
+animation-duration:10s;
+animation-iteration-count:infinite;
+}
+
+@keyframes slide{
+
+from{ padding-top:100%;
+
+}
+
+to{
+padding-top:50%;
+color:white;
+}
+
+}
+
+
+
+
+
+.nav   {
+height:200px;
+width:px;
+box-sizing:border-box;
+animation-name:name;
+animation-duration:30s;
+animation-delay:3s;
+animation-iteration-count:infinite;
+
+}
+
+
+@keyframes name{
+
+0%{
+background:url(images/G1.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+25%{
+background:url(images/G2.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+background-position:center;
+
+
+
+}
+
+50%{
+background:url(images/G3.jpg);
+background-size:100%;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+75%{
+
+background:url(images/G4.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+100%{
+background:url(images/G5.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+background-position:center;
+}
+}
+
+.pack {
+box-sizing:border-box;
+padding:10px;
+text-transform:uppercase;
+background-color:#003366;
+color:white;
+font-size:small;
+opacity:.9;
+}
+
+.box {
+box-sizing:border-box;
+height:300px;
+border:1px solid #ddd;
+display:flex;
+overflow-x:auto;
+background-color:#ddd;
+
+}
+
+.sub {
+height:200px;
+min-width:150px;
+line-height:150px;
+text-align:center;
+background-color:white;
+margin-left:10px;
+box-shadow:0px px 8px 5px rgba( 0,0,0,0.2); 
+display: inline-block;
+box-sizing:border-box;
+border-radius: 10px;
+margin-top:auto;
+margin-bottom:auto;
+border-top:20px solid blue;
+
+
+}
+
+img {
+width:100%;
+display:inline-block;
+height:200px;
+box-sizing:border-box;
+padding-top:50px;
+border-radius:5px;
+}
+
+
+.head {
+margin-top:-50px;
+height:50px;
+box-sizing:border-box;
+
+}
+
+.fixed{
+
+background-image:url(images/A6.jpg);
+min-height:150px;
+background-position:top;
+background-repeat:no-repeat;
+background-size:100%;
+}
+
+
+.C {
+box-sizing:border-box;
+
+}
+
+.deal {
+width:200px;
+min-height:250px;
+margin-left:50px;
+margin-right:50px;
+margin-bottom:50px;
+}
+
+.day{
+
+font-size:20px;
+
+}
+
+.order {
+height:400px;
+background-image:url(images/A9.jpg);
+background-size:contain;
+background-position:bottom;
+background-attachment:fixed;
+background-repeat:no-repeat;
+}
+
+
+.electronics {
+background-color:#ddd;
+
+color:black;
+display: grid;    
+grid-gap:10px; 
+padding: 15px; 
+box-sizing:border-box;
+
+}
+
+
+
+.one{
+grid-column-start:1; 
+width:150px;
+
+
+}
+
+
+.two{
+
+grid-column-start:2; 
+width:150px;
+
+}
+
+
+
+.up {
+text-align:center;
+background-color:#ddd;
+}
+
+
+.sec {
+background-color:#ddd;
+color:black;
+padding:15px;
+box-sizing:border-box;
+text-align:center;
+text-transform:uppercase;
+
+
+}
+
+
+
+
+.shoe_section {
+padding:10px;
+box-sizing:border-box;
+width:200px;
+height:200px;
+border-radius:5px;
+}
+
+.shoe_section:hover{
+background-color:rgba(0,0,0,.5);
+}
+
+
+.sect{
+margin-top:20px;
+display:grid;
+grid-gap:15px;
+overflow-x:scroll;
+overscroll-behavior:smooth;
+
+}
+
+
+button {
+text-transform:capitalize;
+padding:5px;
+border-style:none;
+border-radius:2px;
+color:black;
+background-color:white;
+}
+
+button:hover{
+color:white;
+background-color:black;
+}
+
+.contact {
+border-radius:2px;
+height:100px;
+box-sizing:border-box;
+padding:15px;
+background-color:gray;
+
+color:white;
+
+
+}
+
+
+
+ 
+
+
+</style>
+<head>
+<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg></script>
+<title></title>
+</head>
+<body>
+<div class="header">
+
+<div class="menu" >
+</div>
+<div class="Amazon" >
+<i class="fab fa-amazon"></i>
+<p class="A" >AMAZON</p>
+</div>
+<a class="in" href="Sign.html">Sign In </a>
+<div class="user" >
+<i class="fas fa-user-lock"></i>
+</div>
+
+
+<div class="search" >
+<form>
+<input type="text" placeholder="Search Amazon" >
+</form>
+</div>
+<div class="B" ><i class="fas fa-search"></i></div>
+<div class="section" ><marquee><p> Welcome to Amazon get all your goods at an affordable price  </p></marquee></div>
+<div class="location"> <i class="fas fa-map-marker-alt"></i> <p class="Nigeria" >We deliver across the world </p></div>
+</div>
+<div class="pack" >
+<p>Get your game pack essentials delivered to your door step</p>
+</div>
+<div class="nav" >
+
+</div>
+
+<div class="box" >
+
+<div class="sub" >
+<div class="head" ><h3>Watches</h3></div>
+<img src="images/Watches.jpg">
+</div>
+
+
+<div class="sub" >
+<div class="head" ><h3>Shoes</h3></div>
+<img src="images/Shoes.jpg">
+</div>
+
+
+<div class="sub" >
+<div class="head" ><h3>Clothes</h3></div>
+<img src="images/Clothes.jpg">
+</div>
+
+
+<div class="sub" >
+<div class="head" ><h3>Television Set</h3></div>
+<img src="images/Tv.jpg">
+</div>
+
+
+<div class="sub" >
+<div class="head" ><h3>Smart Phones</h3></div>
+<img src="images/Phone.jpg">
+</div>
+</div>
+
+
+
+
+
+<br>
+<div class="fixed" >
+
+</div>
+
+<div class="C" >
+<h3 class="day"  >Deal of the day</h3>
+<img class="deal"  src="Download/A10.jpg">
+<p style="font-size:15px; padding:10px;" >Bagsmart travel toiletry</p>
+
+<p style="font-size:15px; padding:10px;" >
+Get a 20% discount and an addtional 10% using our card
+</p>
+
+<p style="font-size:15px; padding:10px;" >
+<b>
+<del>$100</del>__$80
+</b>
+</p>
+
+<button style="float:right;" >BUY NOW</button>
+</div>
+
+
+
+
+
+<div class="order" >
+<p class="games" >Order and pick up your goods at your desired station</p>
+</div>
+
+
+
+<div class="electronics" >
+
+
+
+<h2 style="font-family:arial;" >BASIC ELECTRONICS</h2>
+
+<div class="one" >
+<img style="border-radius:5px;"   src="images/Generator.jpg">
+<p>
+<pre>
+Elepaq constant 4.5kVA 
+pure copper less noise
+$1,000
+<del>$2000</del>
+<button>BUY NOW</button>
+</pre>
+</p>
+        
+</div>
+<div class="two" >
+<img style="border-radius:5px;" src="images/Air.jpg">
+<p>
+<pre>
+Air Conditioner
+$1,200
+<del>$2800</del>
+<button>BUY NOW</button>
+</pre>
+</p>
+        
+</div>
+<div class="one" >
+<img style="border-radius:5px;" src="images/Speaker.jpg">
+
+<p>
+<pre>
+Bluetooth speaker + 
+a mini speaker
+$500
+<del>$1000</del>
+<button>BUY NOW</button>
+</pre>
+</p>
+        
+</div>
+<div class="two" >
+<img style="border-radius:5px;" src="images/Solar panel.jpg">
+
+<p>
+<pre>
+Sunkings solar panel
+$2,000
+<del>$2,500</del>
+<button>BUY NOW</button>
+</pre>
+</p>
+        
+
+</div>
+<div class="three" >
+<img style="border-radius:5px;"src="images/Camera.jpg">
+
+<p>
+<pre>
+Digital camera
+$300
+<del>$1,100</del>
+<button>BUY NOW</button>
+</pre>
+</p>     
+</div>
+
+</div>
+
+
+<br>
+
+
+<div class="sec" >
+<h3>Shoes</h3>
+<br>
+<p>Here you can check out new top notch exclusive product at amazon</p>
+<div class="sect" >
+
+
+<div>
+<img class="shoe_section"  src="Download/S1.jpg">
+<pre>
+<p> Addidas Footwear
+  $500
+  <button>BUY NOW</button>
+ </p>
+ </pre>
+</div>
+
+
+<div style="grid-column-start:2;" >
+<img class="shoe_section"  src="Download/S2.jpg">
+<pre>
+<p> Men Casual Shoe
+  $1000
+  <button>BUY NOW</button>
+ </p>
+ </pre>
+</div>
+
+
+<div style="grid-column-start:3;">
+<img class="shoe_section"  src="Download/S3.jpg">
+<pre>
+<p> Fashion 2021
+  $300
+  <button>BUY NOW</button>
+ </p>
+ </pre>
+</div>
+
+
+<div style="grid-column-start:4;">
+<img class="shoe_section"  src="Download/S4.jpg">
+<pre>
+<p> Men Cover Shoe
+  $2000
+  <button>BUY NOW</button>
+ </p>
+ </pre>
+</div>
+
+
+</div>
+</div>
+
+
+<br>
+
+
+
+<div class="sec" >
+<h3>Dress</h3>
+<br>
+<p>Here you can check out new top notch exclusive product at amazon</p>
+<div class="sect" >
+
+
+<div>
+<img class="shoe_section"  src="Download/C1.jpg">
+<pre>
+<p>Lady's short 
+  $500
+  <button>BUY NOW</button>
+ </p>
+ </pre>
+</div>
+
+
+<div style="grid-column-start:2;" >
+<img class="shoe_section"  src="Download/C2.jpg">
+<pre>
+<p> Trousers
+  $1000
+  <button>BUY NOW</button>
+ </p>
+ </pre>
+</div>
+
+
+<div style="grid-column-start:3;">
+<img class="shoe_section"  src="Download/C3.jpg">
+<pre>
+<p> Girl full dress
+  $300
+  <button>BUY NOW</button>
+ </p>
+ </pre>
+</div>
+
+
+<div style="grid-column-start:4;">
+<img class="shoe_section"  src="Download/C4.jpg">
+<pre>
+<p>Men T-shirt
+   vintage
+  $2000
+  <button>BUY NOW</button>
+ </p>
+</pre>
+</div>
+
+</div>
+</div>
+
+<br>
+
+<div class="up" >
+<i style="font-size:20px;" class="fas fa-arrow-up"></i>
+<a style="text-decoration:none;color:black;padding:10px;"  class="back" href="#" > 
+Top of the page
+</a>
+
+</div>
+
+<br>
+
+
+<div class="contact" >
+<p style="padding:10px font-size:10px;font-family:fantasy;" >You can contact us or leave a message for us at our website<br>
+ <a href="contact form.html" >Click here to contact us</a><br>
+ Amazon E-commerce © all right reserved 
+</p>
+</div>
+
+
+
+</body>
+</html>
